@@ -1,16 +1,29 @@
-# React + Vite
+ ### What's on the Menu ###
+This project is a full-stack meal planning application. The frontend is built with React, and the backend uses Flask, SQLAlchemy, and Alembic for database migrations. Gunicorn is used to serve the backend in production.
+## Table of Contents
+1. Features
+2. Tech Stack
+3. Frontend Setup
+4. Backend Setup
+5. Running the Application
+6. API Endpoints
+7. Contributing
+8. License
+## Features
+1. Browse and search for recipes.
+2. Create, update, and delete meal plans.
+3. Save favorite recipes.
+4. User authentication (if implemented).
+## Frontend:
+1. React
+2. CSS 
+3. Axios (for API requests)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Frontend Setup
+1. Navigate to the frontend folder:
+2. cd frontend
+3. Install dependencies:
+   -npm install
+   -Run the development server:
+   -npm start
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
